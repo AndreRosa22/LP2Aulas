@@ -1,0 +1,7 @@
+c:\users\andré\source\repos\MyAula\MyAula\obj\Debug\MyAula.csprojResolveAssemblyReference.cache
+c:\users\andré\source\repos\MyAula\MyAula\obj\Debug\MyAula.csproj.CoreCompileInputs.cache
+c:\users\andré\source\repos\MyAula\MyAula\bin\Debug\MyAula.exe.config
+c:\users\andré\source\repos\MyAula\MyAula\bin\Debug\MyAula.exe
+c:\users\andré\source\repos\MyAula\MyAula\bin\Debug\MyAula.pdb
+c:\users\andré\source\repos\MyAula\MyAula\obj\Debug\MyAula.exe
+c:\users\andré\source\repos\MyAula\MyAula\obj\Debug\MyAula.pdb

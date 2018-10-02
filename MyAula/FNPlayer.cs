@@ -8,16 +8,32 @@ namespace MyFortnite
 {
     class FNPlayer
     {
-        string equipedWeapon;
-        double hitPoints;
-        double shield;
+        public string equipedWeapon;
+        public double hitPoints;
+        public double shield;
 
-        void Attack(FNPlayer enemy)
+        // Construtor vazio
+        public FNPlayer()
+        {
+            equipedWeapon = "pickaxe";
+            hitPoints = 100;
+            shield = 0;
+        }
+
+        // Construtor com parâmetros
+        public FNPlayer(string equipedWeapon, double hitPoints, double shield)
+        {
+            this.equipedWeapon = equipedWeapon;
+            this.hitPoints = hitPoints;
+            this.shield = shield;
+        }
+
+        public void Attack(FNPlayer enemy)
         {
             enemy.TakeDamage(10);
         }
 
-        void TakeDamage(double damage)
+        public void TakeDamage(double damage)
         {
             if (shield > 0)
             {
@@ -32,7 +48,7 @@ namespace MyFortnite
                 hitPoints -= damage;
                 if (hitPoints <= 0)
                 {
-                    Die();
+                   /* Die();*/
                 }
             }
 

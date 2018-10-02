@@ -4,12 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyAula
+namespace MyFortnite
 {
     class Program
     {
         static void Main(string[] args)
         {
+            FNPlayer player1 = new FNPlayer();
+            FNPlayer player2 = new FNPlayer("MachineGun", 100, 100);
+
+            Console.WriteLine("Shield Before: " + player2.shield);
+            Console.WriteLine("HP Before: " + player2.shield);
+
+            player1.Attack(player2);
+
+            Console.WriteLine("Shield after: " + player2.shield);
+            Console.WriteLine("HP after: " + player2.shield);
         }
     }
 }
+
