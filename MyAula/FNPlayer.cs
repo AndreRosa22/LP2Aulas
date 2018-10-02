@@ -12,6 +12,8 @@ namespace MyFortnite
         private double hitPoints;
         private double shield;
 
+        public static double MaxHitPoints { get; } = 100;
+
         // Construtor vazio
         public FNPlayer()
         {
@@ -38,7 +40,7 @@ namespace MyFortnite
             if (shield >= 0)
             {
                 this.shield = shield;
-                
+
             }
             return shield;
         }
