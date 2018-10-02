@@ -8,9 +8,9 @@ namespace MyFortnite
 {
     class FNPlayer
     {
-        public string equipedWeapon;
-        public double hitPoints;
-        public double shield;
+        private string equipedWeapon;
+        private double hitPoints;
+        private double shield;
 
         // Construtor vazio
         public FNPlayer()

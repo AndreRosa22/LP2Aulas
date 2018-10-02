@@ -14,7 +14,7 @@ namespace MyFortnite
             FNPlayer player2 = new FNPlayer("MachineGun", 100, 100);
 
             Console.WriteLine("Shield Before: " + player2.GetShield());
-            Console.WriteLine("HP Before: " + player2.shield);
+            Console.WriteLine("HP Before: " + player2.GetShield());
 
             player1.Attack(player2);
 
