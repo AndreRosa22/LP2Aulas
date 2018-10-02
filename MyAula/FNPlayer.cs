@@ -35,7 +35,11 @@ namespace MyFortnite
 
         public double SetShield(double shield)
         {
-            this.shield = shield;
+            if (shield >= 0)
+            {
+                this.shield = shield;
+                
+            }
             return shield;
         }
         public void Attack(FNPlayer enemy)
@@ -58,7 +62,7 @@ namespace MyFortnite
                 hitPoints -= damage;
                 if (hitPoints <= 0)
                 {
-                   /* Die();*/
+                    /* Die();*/
                 }
             }
 
